@@ -1,0 +1,21 @@
+# Settings for `cargo about`, the tool that collects the licenses of every Rust
+# library the app uses. Put this file in vault_app/rust/ (next to Cargo.toml).
+#
+# If cargo-about says a license is "not accepted", add its name to this list
+# after checking that you are happy to ship code under it.
+accepted = [
+    "Apache-2.0",
+    "MIT",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "Zlib",
+    "CC0-1.0",
+    "MPL-2.0",
+    "Unicode-3.0",
+    "Unicode-DFS-2016",
+]
+
+# Tools used only while building or testing are not part of the app.
+ignore-build-dependencies = true
+ignore-dev-dependencies = true

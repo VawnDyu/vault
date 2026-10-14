@@ -1,0 +1,2 @@
+@@@ Rust libraries (placeholder)
+This is a placeholder. Replace it by running `cargo about` (see the steps in the chat), which fills this file with the real license texts of every Rust library the app uses.

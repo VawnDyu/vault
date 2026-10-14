@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------
+# VAULT DATA: never commit these. A vault file is encrypted, but it must not
+# be published, and CSV exports contain passwords as plain text.
+# ---------------------------------------------------------------------------
+*.vault
+*.vault.bak
+*.vault.tmp
+*.vault.before-import
+*.vault.before-sync
+*.csv
+
+# Rust
+target/
+**/*.rs.bk
+
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.iml
+.idea/
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.jks
+*.keystore
+
+# Windows / macOS
+Thumbs.db
+.DS_Store
