@@ -24,6 +24,17 @@ Built by [Vawndyu](https://github.com/VawnDyu) with a **Rust** core and a
 - Manual sync between phone and PC by merging encrypted vault files
 - Auto-lock, clipboard clearing, light/dark themes
 
+## Screenshots
+
+<p>
+  <img src="screenshots/login-register.png" width="240" alt="Login/Register">
+  <img src="screenshots/vault-list.png" width="240" alt="Vault list">
+  <img src="screenshots/add-entry.png" width="240" alt="Add Entry">
+  <img src="screenshots/password-health.png" width="240" alt="Password health">
+  <img src="screenshots/codes.png" width="240" alt="Two-factor codes">
+  <img src="screenshots/settings.png" width="240" alt="Settings">
+</p>
+
 ## How your data is protected
 
 - The master password is turned into a key with **Argon2id** (slow and
